@@ -15,14 +15,16 @@ body {
     ". . a3";
 }
 
-#alice1 {
-  grid-area: a1;
-}
-
-#alice2 {
-  grid-area: a2;
-}
-
+#alice1,
+#alice2,
 #alice3 {
-  grid-area: a3;
+  grid-area: a1;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
 }
+
+#alice1 { grid-area: a1; }
+#alice2 { grid-area: a2; }
+#alice3 { grid-area: a3; }
