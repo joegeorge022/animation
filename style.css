@@ -1,8 +1,9 @@
 body {
-  background: #6c373f;
+  background: url('img.jpg') no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   justify-content: center;
-  }
+}
 
 #alice-container {
   width: 90vh;
